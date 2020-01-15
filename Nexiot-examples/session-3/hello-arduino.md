@@ -3,7 +3,7 @@
 ## Basic Elements:
 	•	Battery voltage 
 	•	Measuring Battery voltage 
-(s3-images/image.jpeg)
+[image](s3-images/image.jpeg)
 	•	Led circuit 
 ￼
 
