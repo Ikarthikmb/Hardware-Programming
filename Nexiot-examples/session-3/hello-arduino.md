@@ -1,4 +1,4 @@
-# ReadMe Session - 2 Nexiot001
+# ReadMe Session - 2
 
 ## Basic Elements:
 	•	Battery voltage 
