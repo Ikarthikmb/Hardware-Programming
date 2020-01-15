@@ -1,13 +1,13 @@
-#ReadMe Session - 2 Nexiot001
+# ReadMe Session - 2 Nexiot001
 
-##Basic Elements:
+## Basic Elements:
 	•	Battery voltage 
 	•	Measuring Battery voltage 
 (s3-images/image.jpeg)
 	•	Led circuit 
 ￼
 
-##Arduino
+## Arduino
 1 Blinking internal LED of an Arduino 
 ￼￼
 2 Start your first program Using LED
