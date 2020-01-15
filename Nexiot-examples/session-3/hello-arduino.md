@@ -5,13 +5,13 @@
 	•	Measuring Battery voltage
 	•	Led circuit 
 ![](s3-images/Image.jpeg) 
-![](s3-images/Image 2.jpeg)
+![](s3-images/Image2.jpeg)
 
 ## Arduino
 
 1 Blinking internal LED of an Arduino 
 
-![](s3-images/Image 3.jpeg)
+![](s3-images/Image3.jpeg)
 ![](s3-images/Image 4.jpeg)
 
 2 Start your first program Using LED
