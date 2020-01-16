@@ -5,7 +5,7 @@
 	• Measuring Battery voltage
 	• Led circuit 
 ![](s3-images/Image.jpeg) 
-![](s3-images/Image 2.jpeg)
+![](../Image 2.jpeg)
 
 ## Arduino
 
