@@ -6,9 +6,9 @@
 3. 4 bit UP/DOWN Counter
 
 ## Part-2 Contents
-Experiment 1: Verilog code for an ALU
-Experiment 2: Decoder
-Experiment 3: Design of 4×2 Multiplexer using 2×1 mux
-Experiment 4: Parity Checker
-Experiment 5: Encoder
+1. Verilog code for an ALU
+2. Decoder
+3. Design of 4×2 Multiplexer using 2×1 mux
+4. Parity Checker
+5. Encoder
 <hr>
