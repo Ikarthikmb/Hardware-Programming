@@ -1,9 +1,10 @@
 # Session - 2 Worked-out examples
 
-## Basic Elements:
-	• Battery voltage 
-	• Measuring Battery voltage
-	• Led circuit 
+## Basic Elements
+• Battery voltage 
+• Measuring Battery voltage
+• Led circuit 
+
 ![](s3-images/Image.jpeg) <br>
 ![](s3-images/Image 2.jpeg) <br>
 
