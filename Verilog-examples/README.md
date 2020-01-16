@@ -11,4 +11,4 @@
 3. Design of 4×2 Multiplexer using 2×1 mux
 4. Parity Checker
 5. Encoder
-<hr>
+---
