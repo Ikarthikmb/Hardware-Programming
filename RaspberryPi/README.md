@@ -6,7 +6,7 @@
 
 ---
 
-## Using Ultrasonic Sensor to Capture Positional Changes of Objects
+## 1. Using Ultrasonic Sensor to Capture Positional Changes of Objects
 
 It is important to have your valuable things safe, it would be lame if you keep on guarding your castle the whole day. Using the raspberry pi camera you can take the snaps at the right moment. 
 
