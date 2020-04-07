@@ -7,6 +7,8 @@ am = Adafruit_MCP3008.MCP3008(clk = 11, cs = 8, miso = 9, mosi = 10)
 
 while True:
   moisture_value = am.read_adc(0)
+  per = moisture_value * 100 / 1023
+  print("Recorded moisture value is %s percentage" % per)
   if moisture_value >= 930:
     print(" No water, Can you plaease water me")
   elif moisture_value < 930 and moisture_value >= 350:
