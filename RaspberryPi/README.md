@@ -1,8 +1,8 @@
-> # Contents
->
-> 1. Using Ultrasonic Sensor to Capture Positional Changes of Objects
-> 2. Measuring Soil Moisture using Raspberry Pi
-> - Related Links
+# Contents
+
+1. Using Ultrasonic Sensor to Capture Positional Changes of Objects
+2. Measuring Soil Moisture using Raspberry Pi
+- Related Links
 
 ---
 
@@ -139,7 +139,7 @@ In this project lets try to build a circuit which can measure the water content 
 - Jumpers
 
 ### Circuit Connection:
-    ![Connections](/images/soil-moist/soil-moisture-circuit.png)
+   ![Circuit diagram](/images/soil-moist/soil-moisture-circuit.jpg)
 - MCP3008 GND to GND
 - MCP3008 CS to RPI 8
 - MCP3008 DIN to RPI 10
