@@ -216,10 +216,10 @@ This project is about capturing the pictures of strangers through the Pi Camera 
 |---|---|
 | ![Connecting PIR sensor to Raspberry Pi 3](https://github.com/Ikarthikmb/Hardware-Codes/blob/master/RaspberryPi/images/intruder-detection/circuit%20connection%20pir%20sensor%20to%20raspberry%20pi.png "Connecting PIR sensor to Raspberry Pi 3") | ![Connecting Pi Camera to Raspberry Pi (Source: https://projects-static.raspberrypi.org/projects/getting-started-with-picamera/eb7defb950e2f3eeb8aa5934d26cfd600860c8a0/en/images/connect-camera.gif)](https://github.com/Ikarthikmb/Hardware-Codes/blob/master/RaspberryPi/images/intruder-detection/connect-picamera-rpi.gif "Connecting Pi Camera to Raspberry Pi") |
   
- Connect the PIR sensor to raspberry pi as shown in the above circuit diagram. Additionally connect the Pi Cam to Raspberry Pi camera port. To check whether ypur camera is working or not run the following code. 
+ Connect the PIR sensor to raspberry pi as shown in the above circuit diagram. Additionally connect the Pi Cam to Raspberry Pi camera port. To check whether ypur camera is working or not **run** the following code. 
        
        raspistill -o Desktop/image.jpg
-Apparantly you should  see the `image` saved on your Desktop, if not make sure you connected the camera properly and restart the device.
+Apparantly you should  see the `image` saved on your Desktop, if not make sure you connected the camera properly and **restart** the device.
 
 ## The Code
 
