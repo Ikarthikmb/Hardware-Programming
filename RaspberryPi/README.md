@@ -267,7 +267,9 @@ Happy Circuiting!
 
 # Related Links
 
-[-] For more information, raspberry-pi articles, projects [click here](https://sites.google.com/view/makewithraspberry/home).
+[-] For more information, raspberry-pi articles, projects [click here](https://sites.google.com/view/makewithraspberry/home)
+
 [-] [How to Setup Raspberry Pi](https://www.instructables.com/id/Set-Up-Raspberry-Pi-4-Through-Laptoppc-Using-Ether/)
+
 [-] [Using Ultrasonic Sensor to Capture Positional Changes of Objects](https://www.instructables.com/id/Using-Ultrasonic-Sensor-to-Capture-Sensitive-Chang/)
 
