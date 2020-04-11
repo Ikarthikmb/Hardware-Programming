@@ -1,13 +1,13 @@
 # Contents
 
-1. [Using Ultrasonic Sensor to Capture Positional Changes of Objects](#1.-using-ultrasonic-sensor-to-capture-positional-changes-of-objects)
-2. [Measuring Soil Moisture using Raspberry Pi](2.-Measuring-Soil-Moisture-using-Raspberry-Pi)
+1. [Using Ultrasonic Sensor to Capture Positional Changes of Objects](#1-using-ultrasonic-sensor-to-capture-positional-changes-of-objects)
+2. [Measuring Soil Moisture using Raspberry Pi](2-Measuring-Soil-Moisture-using-Raspberry-Pi)
 
-- Related Links
+- [Related Links](#related-links)
 
 ---
 
-## 1. Using Ultrasonic Sensor to Capture Positional Changes of Objects
+## 1 Using Ultrasonic Sensor to Capture Positional Changes of Objects
 It is important to have your valuable things safe, it would be lame if you keep on guarding your castle the whole day. Using the raspberry pi camera you can take the snaps at the right moment. 
 
 This guide will help you shoot a video or take the picture when the changes are sensed within the boundary area.
@@ -126,7 +126,7 @@ Happy Circuiting!
 
 ---
 
-## 2. Measuring Soil Moisture using Raspberry Pi
+## 2 Measuring Soil Moisture using Raspberry Pi
 
 Do you know how often to water plants? Or outpoured plants and lost them. To solve this I thought it would be more circumstantial if we can get the value of water content inside the soil in order to make a decision for watering the plants appropriately.
 
