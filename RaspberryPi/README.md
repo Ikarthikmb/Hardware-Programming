@@ -1,7 +1,7 @@
 # Contents
 
 1. [Using Ultrasonic Sensor to Capture Positional Changes of Objects](#1-using-ultrasonic-sensor-to-capture-positional-changes-of-objects)
-2. [Measuring Soil Moisture using Raspberry Pi](2-Measuring-Soil-Moisture-using-Raspberry-Pi)
+2. [Measuring Soil Moisture using Raspberry Pi](2-measuring-soil-moisture-using-raspberry-pi)
 
 - [Related Links](#related-links)
 
