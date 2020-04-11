@@ -2,6 +2,7 @@
 
 1. [Using Ultrasonic Sensor to Capture Positional Changes of Objects](#1-using-ultrasonic-sensor-to-capture-positional-changes-of-objects)
 2. [Measuring Soil Moisture using Raspberry Pi](#2-measuring-soil-moisture-using-raspberry-pi)
+3. [Intruder Detection Using Pi Camera](#3-intruder-detection-using-pi-camera)
 
 - [Related Links](#related-links)
 
@@ -186,6 +187,66 @@ while True:
     print(" Stop drowning me!")
   sleep(1.5)
 ```
+
+#### Youtube Video Tutorial:
+[![Youtube Video Tutorial](https://github.com/Ikarthikmb/Hardware-Codes/blob/master/RaspberryPi/images/soil-moist/image01%20-%20title.png)](https://youtu.be/ahQhEWf1PRI "Click to play")
+
+## 3 Intruder Detection Using Pi Camera
+
+This project is about capturing the pictures of strangers through the Pi Camera attached to Raspberry Pi. This is a DIY project which can detect people using the motion sensor(PIR sensor) by capturing a photo whenever the motion is detected.
+
+#### Hardware:
+1. Raspberry Pi 2/3/4
+2. Pi Camera
+3. PIR Sensor
+4. Jumpers
+
+### Circuit Connection
+ ![Connecting PIR sensor to Raspberry Pi 3](https://github.com/Ikarthikmb/Hardware-Codes/blob/master/RaspberryPi/images/intruder-detection/circuit%20connection%20pir%20sensor%20to%20raspberry%20pi.png)
+  
+  ![Connecting Pi Camera to Raspberry Pi (Source: https://projects-static.raspberrypi.org/projects/getting-started-with-picamera/eb7defb950e2f3eeb8aa5934d26cfd600860c8a0/en/images/connect-camera.gif)](https://github.com/Ikarthikmb/Hardware-Codes/blob/master/RaspberryPi/images/intruder-detection/connect-picamera-rpi.gif)
+  
+ Connect the PIR sensor to raspberry pi as shown in the above circuit diagram. Additionally connect the Pi Cam to Raspberry Pi camera port.
+ To check whether ypur camera is working or not run the following code. Apparantly you can see the `image` saved on the Desktop, if not make sure you connected the camera properly and restarted the device.
+       
+       raspistill -o Desktop/image.jpg
+
+## The Code
+
+```
+   #Code for Capturing Strangers:
+
+   from gpiozero import MotionSensor
+   from picamera import PiCamera
+   import RPi.GPIO as GPIO
+   import time
+
+   GPIO.setmode(GPIO.BCM)
+   GPIO.setwarnings(False)
+
+   pir=MotionSensor(23)
+   camera=PiCamera()
+   camera.rotation = 180
+   camera.start_preview()
+
+   while True:
+    GPIO.setup(24, GPIO.OUT)
+    if pir.wait_for_motion():
+        GPIO.output(24, GPIO.HIGH)
+        #time.sleep(0.1)
+        print("Motion Detected")
+        camera.capture('/home/pi/Marvel/PiCam/PiImage/Strangers/image-'+ time.ctime()+'.png')
+         print("image-"+time.ctime())
+         GPIO.output(24, GPIO.LOW)
+
+    else:
+        print("Motion not Detected")
+    time.sleep(3)
+   camera.stop_preview()
+   camera.close()
+```
+#### Youtube Video Tutorial:
+[![Youtube Tutorial Video](https://github.com/Ikarthikmb/Hardware-Codes/blob/master/RaspberryPi/images/intruder-detection/intruder%20detection%20title.jpg)](https://youtu.be/Nw-yHMn69R0?t=47 "Click to play")
 
 ---
 
