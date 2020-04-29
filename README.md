@@ -5,9 +5,9 @@ Contains codes related with Arduino UNO, NodeMCU, RasbpberryPi also examples in 
 ## Contents
 
 1. [Raspberry Pi](#raspberry-pi)
-2. [Arduino](https://github.com/Ikarthikmb/Hardware-Codes/tree/master/Arduino-repo)
+2. [Arduino](#getting-started-with-arduino)
 3. [MATLAB](#designing-with-matlab)
-4. [Verilog](https://github.com/Ikarthikmb/Hardware-Codes/tree/master/Verilog-examples)
+4. [Verilog](#vlsi-design-through-verilog)
 
 Detailed description insde each specific repository.
 
@@ -15,11 +15,17 @@ Detailed description insde each specific repository.
 
 ## [Raspberry Pi](https://github.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/tree/master/RaspberryPi)
 
+|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/RaspberryPi/images/soil-moist/soil-moisture-circuit.jpg)|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/RaspberryPi/images/distance-measure/IMG_4650-1.jpg)|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/RaspberryPi/images/intruder-detection/circuit%20connection%20pir%20sensor%20to%20raspberry%20pi.png)|
+|---|---|---|
+
 1. Measuring Soil Moisture using Raspberry Pi
 2. Using Ultrasonic Sensor to Capture Positional Changes of Objects
 3. Intruder Detection Using Pi Camera
 
 ## [Getting Started with Arduino](https://github.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/tree/master/Arduino-repo)
+
+|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/Nexiot-examples/session-3/s3-images/Image%2011.jpeg)|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/Nexiot-examples/session-3/s3-images/Image%208.jpeg)|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/Nexiot-examples/session-3/s3-images/Image%2013.jpeg)|
+|---|---|---|
 
 1. Blinking internal LED of an Arduino UNO
 2. Home automation using NodeMCU
@@ -28,6 +34,9 @@ Detailed description insde each specific repository.
 
 
 ## [Designing with MATLAB](https://github.com/Ikarthikmb/Hardware-Codes/tree/master/Matlab-files/Communications-Design-lab)
+
+|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/Matlab-files/Communications-Design-lab/Modulation-technique/Frequency-modulation/FM_cos_msg.jpg)|![](https://raw.githubusercontent.com/Ikarthikmb/RaspberryPi_Arduino_Verilog_MATLAB-Repo/master/Matlab-files/Communications-Design-lab/DTMF/DTMF%20000.png)|
+|---|---|
 
 1. Modulation techniques
     - Amplitude modulation
