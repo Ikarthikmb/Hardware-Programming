@@ -13,7 +13,7 @@
 
 To begin with Arduino open the Arduino IDE open ` File → New `. This will create a new sketch. To import our LED blink program go to ` File → Examples → 01.Basics → Blink `
 
-> [ArduinoUNO internal led blink Image](https://drive.google.com/file/d/1GEBBNadbKFdoJK1YAXTP2Pm20Hu1KAiR/view)
+![ArduinoUNO internal led blink Image](https://drive.google.com/file/d/1GEBBNadbKFdoJK1YAXTP2Pm20Hu1KAiR/view)
 
 This will load the LED blink code. All you have to do is connect the Arduino to pc using the cable. 
 
