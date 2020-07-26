@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-const char* ssid = "Ocean";
-const char* password = "GreyStorm";
+const char* ssid = "ssid"; //enter ssidd here
+const char* password = "Password"; //enter passwor here
 const int relayPin = D4;
 
 ESP8266WebServer server(80);
